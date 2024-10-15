@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "游戏合集",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -17,35 +17,20 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "支持",
+      "url": "mailto:lyjcody@foxmail.com"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "收集文档",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://game.dragonjay.top/docs"
     },
     {
-      "name": "Community",
+      "name": "交流",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://game.dragonjay.top/community"
     }
   ],
   "navigation": [
@@ -68,20 +53,6 @@
         "essentials/reusable-snippets"
       ]
     },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
