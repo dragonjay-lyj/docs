@@ -3,6 +3,8 @@ title: '小丑牌'
 description: 'Balatro是一场循环不息的扑克之旅。在这款令人陶醉的策略构建游戏中，你将参与到非法牌局，发掘能够改变局势的小丑牌，引爆一系列令人血脉喷张、疯狂迸发的连锁效应。'
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+
 <section class="mb-8">
   <h2 class="mb-4 text-2xl font-bold">游戏截图</h2>
 
@@ -117,3 +119,13 @@ description: 'Balatro是一场循环不息的扑克之旅。在这款令人陶�
     </Tab>
   </Tabs>
 </section>
+
+<div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://your-domain.vercel.app',
+  });
+</script>
