@@ -30,11 +30,10 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "开始",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "game/balatro"
       ]
     },
     {
