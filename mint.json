@@ -23,11 +23,6 @@
   ],
   "anchors": [
     {
-      "name": "收集文档",
-      "icon": "book-open-cover",
-      "url": "https://game.dragonjay.top/docs"
-    },
-    {
       "name": "交流",
       "icon": "slack",
       "url": "https://game.dragonjay.top/community"
