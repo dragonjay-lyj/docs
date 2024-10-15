@@ -54,63 +54,6 @@
       ]
     }
   ],
-  {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "游戏合集",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "支持",
-      "url": "mailto:lyjcody@foxmail.com"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "交流",
-      "icon": "slack",
-      "url": "https://game.dragonjay.top/community"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "开始",
-      "pages": [
-        "introduction"
-      ]
-    },
-    {
-      "group": "游戏",
-      "pages": [
-        "game/balatro"
-      ]
-    },
-    {
-      "group": "牌组构建式类 Rogue",
-      "pages": [
-        "game/balatro"
-      ]
-    },
-    {
-      "group": "卡牌游戏",
-      "pages": [
-        "game/balatro"
-      ]
-    }
-  ],
   "footerSocials": {
-    
   }
 }
