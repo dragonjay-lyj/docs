@@ -38,19 +38,19 @@
     {
       "group": "游戏",
       "pages": [
-        "game/balatro"
+        "game/Balatro"
       ]
     },
     {
       "group": "牌组构建式类 Rogue",
       "pages": [
-        "game/balatro"
+        "game/Balatro"
       ]
     },
     {
       "group": "卡牌游戏",
       "pages": [
-        "game/balatro"
+        "game/Balatro"
       ]
     }
   ],
