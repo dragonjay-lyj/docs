@@ -3,7 +3,7 @@ title: '小丑牌'
 description: 'Balatro是一场循环不息的扑克之旅。在这款令人陶醉的策略构建游戏中，你将参与到非法牌局，发掘能够改变局势的小丑牌，引爆一系列令人血脉喷张、疯狂迸发的连锁效应。'
 ---
 
-import { Waline } from '../waline.tsx';
+import { Waline } from '../waline.js';
 
 <section class="mb-8">
   <h2 class="mb-4 text-2xl font-bold">游戏截图</h2>
@@ -120,11 +120,4 @@ import { Waline } from '../waline.tsx';
   </Tabs>
 </section>
 
-<Waline serverURL="https://com.dragonjay.top" pageview={true} path="/game/Balatro" emoji={[
-          'https://unpkg.com/@waline/emojis@1.2.0/bilibili',
-          'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
-          'https://unpkg.com/@waline/emojis@1.2.0/qq',
-          'https://unpkg.com/@waline/emojis@1.2.0/tieba',
-          'https://unpkg.com/@waline/emojis@1.2.0/weibo',
-          'https://unpkg.com/@waline/emojis@1.2.0/soul-emoji'
-        ]} />
+<Waline />
