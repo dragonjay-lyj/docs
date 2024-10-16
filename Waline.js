@@ -5,8 +5,9 @@ import Head from 'next/head';
 const Waline = () => {
   useEffect(() => {
     const initWaline = async () => {
-      const { init } = await import('https://unpkg.com/@waline/client@v3/dist/waline.js');
-      init({
+      // 使用动态导入，而不是直接的 import 语句
+      const module = await import('https://unpkg.com/@waline/client@v3/dist/waline.js');
+      module.init({
         el: '#waline',
         serverURL: 'https://com.dragonjay.top',
         pageview: true,
